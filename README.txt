@@ -1,7 +1,10 @@
 Atividades e Desafios de Professor Gustavo Guanabara
 
+Pasta "Módulo":
+Progressão no curso composto por 5 módulos, estarei postando mais conforme estudo.
+
 Pasta "html-css":
- - Aqui estão as atividades propostas
+ - Aqui estão as atividades propostas.
 
 Pasta "Desafios":
  - Aplicando o conhecimento sem ajuda apenas com o material disponivel da aula.
