@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="stylesheet" href="src/style/style.css">
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Usar a Tag &lt;<abbr title="Lista Organizada">ol</abbr>&gt;, depois a Tag &lt;<abbr title="Item da Lista">li</abbr>&gt;.</p>
+    <ol type="I" start="1"><!-- start é opcional -->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os Dentes</li>
+        <li>Lavar Roupa</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <p>Usar a Tag &lt;<abbr title="Lista Avulsa">ul</abbr>&gt;.</p>
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Bolacha</li>
+        <li>Chocolate</li>
+        <li>Doce de passar no pão</li>
+    </ul>
+    <h2>Minhas Linguagens Favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Dolphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <!-- tag <start> sempre se inicia por números -->
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus Jogos Favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type = "square">
+            <li>Arkeanoid</li>
+            <li>Bomber-Man</li>
+            <li>Super Mario</li>
+        </ul>
+        <li>Sony PlayStation&reg;</li>
+        <ul type = "square">
+            <li>Crash Bandicot</li>
+            <ul type = "Circle">
+                <li>Crash I</li>
+                <li>Crash II</li>
+                <li>Crash III</li>
+            </ul>
+            <li>Pink Panther</li>
+            <li>Scooby Doo</li>
+        </ul>
+        <li>Android</li> 
+        <ul type = "square">
+            <li>Hungry Shark</li>
+            <li>Nebulous</li>
+            <li>Terraria</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <p class="legenda">Cor Laranja: Termo.</p>
+    <p class="legenda">Cor Ciano: Descrição</p>
+    <dl>
+        <dt class="termo">Termo</dt>
+        <dd class="descricao">Descrição</dd>
+        <dt class="termo">HTML</dt>
+        <dd class="descricao">Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt class="termo">CSS</dt>
+        <dd class="descricao">Linguagem de marcação para a criaçãpo de desing de um site.</dd>
+        <dt class="termo">JavaScript</dt>
+        <dd class="descricao">Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>

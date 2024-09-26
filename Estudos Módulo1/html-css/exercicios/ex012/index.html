@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos Localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="midia/Agua.mp4" width="300" height="500" controls></video>
+    <!-- Modo compatibilidade usar método abaixo-->
+     <video width="300" height="500" controls loop>
+        <source src="midia/Agua.mp4" type="video/mp4">
+        <!-- Colocar os vídeos em diferentes extensões para cada navegador e se possivel disponibilizar download -->
+         <p>Seu navegador não é compativel com o vídeo</p>
+     </video>
+     <h1>Inserindo Vídeos do Youtube</h1>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/Dm5Uvwlpb0g?si=aJ7CXiyuDB5IYwMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

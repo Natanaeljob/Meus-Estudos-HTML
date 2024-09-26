@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+     <!-- Utilizar da menor largura para a maior -->
+     <!-- Se fizer inverso, condições não serao atendidas  -->
+    </picture>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/temple-of-theasure.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não foi capaz de reproduzir áudio. <a href="midia/temple-of-theasure.mp3">CLique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <!-- Formatos aceitos: MP3 WAV OGG-->
+</body>
+</html>
